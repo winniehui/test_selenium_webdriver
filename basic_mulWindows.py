@@ -8,6 +8,7 @@ driver.get("http://baidu.com")
 
 time.sleep(2)
 # 使用多个窗口
+# 打开多个页面，地址栏下有多个标签
 JS1 = 'window.open("https://www.sogou.com");'
 driver.execute_script(JS1)
 
