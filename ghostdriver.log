@@ -1,0 +1,18 @@
+[INFO  - 2022-09-17T14:37:58.244Z] GhostDriver - Main - running on port 61839
+[INFO  - 2022-09-17T14:38:02.778Z] Session [559d9b60-3696-11ed-9b08-834dc25e647a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2022-09-17T14:38:02.778Z] Session [559d9b60-3696-11ed-9b08-834dc25e647a] - page.customHeaders:  - {}
+[INFO  - 2022-09-17T14:38:02.778Z] Session [559d9b60-3696-11ed-9b08-834dc25e647a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2022-09-17T14:38:02.778Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 559d9b60-3696-11ed-9b08-834dc25e647a
+[ERROR - 2022-09-17T14:38:05.762Z] Session [559d9b60-3696-11ed-9b08-834dc25e647a] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2022-09-17T14:38:05.762Z] Session [559d9b60-3696-11ed-9b08-834dc25e647a] - page.onError - stack:
+  (anonymous function) (http://cn.bing.com/rp/5p9T_pgApKysm-sZ15bd5sQ2pNU.gz.js:1)
+  (anonymous function) (http://cn.bing.com/rp/5p9T_pgApKysm-sZ15bd5sQ2pNU.gz.js:1)
+  q (http://cn.bing.com/rp/mlKxxkf6UTEZv7k-d_D59PCFRho.gz.js:6)
+  forEach (:0)
+  (anonymous function) (http://cn.bing.com/rp/mlKxxkf6UTEZv7k-d_D59PCFRho.gz.js:6)
+  some (:0)
+  l (http://cn.bing.com/rp/mlKxxkf6UTEZv7k-d_D59PCFRho.gz.js:6)
+
+  phantomjs://platform/console++.js:263 in error
