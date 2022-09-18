@@ -5,4 +5,3 @@ csv_file=csv.reader(file)
 
 for i in csv_file:
     print(i)
-    print(line)
