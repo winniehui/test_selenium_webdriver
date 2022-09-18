@@ -1,12 +1,13 @@
 from selenium import webdriver
 import time
 from selenium.webdriver import ActionChains
+from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
 driver.get("https://www.baidu.com")
 
-driver.find_element_by_id("kw").send_keys("selenium")
-driver.find_element_by_id("su").click()
+driver.find_element(By.ID, "kw").send_keys("selenium")
+driver.find_element(By.ID, "su").click()
 
 # get all the cookie
 cookies = driver.get_cookies()
