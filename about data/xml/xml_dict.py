@@ -16,7 +16,7 @@ for i in test_person:
     
 print("*****==================================================*****")
 find_node2=root.findall("name")
-print(find_node[0], find_node2[0].tag, find_node2[0].text)
+print(find_node2[0], find_node2[0].tag, find_node2[0].text)
 
 print("*****==================================================*****")
 find_node=root.find("name")
