@@ -1,1 +1,5 @@
 drag_window_2fail.py
+chromedriver.exe
+.idea
+__pycache__
+venv
